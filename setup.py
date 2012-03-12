@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pygments-rspec',
-    version='0.1',
+    version='0.2',
     description='Pygments lexer for Ruby + RSpec.',
     long_description=open('README.rst').read(),
     keywords='pygments ruby rspec lexer',
