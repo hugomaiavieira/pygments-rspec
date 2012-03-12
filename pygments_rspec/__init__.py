@@ -18,7 +18,7 @@ class RspecLexer(RubyLexer):
     filenames = ['*.rspec'] # just to have one if you whant to use
 
     EXTRA_KEYWORDS = ['describe',  'it', 'feature', 'scenario', 'background',
-                     'within']
+                     'within', 'context']
 
     def get_tokens_unprocessed(self, text):
         for index, token, value in RubyLexer.get_tokens_unprocessed(self, text):
